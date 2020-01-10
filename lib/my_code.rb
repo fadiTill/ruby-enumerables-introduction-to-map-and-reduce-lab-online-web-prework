@@ -70,11 +70,11 @@ def reduce_to_any_true(source_array)
     # Stop enumerating and return nil if any element is
     # >6
     if (source_array[i] => "6")
-      return [0 ]
+      return reduce_to_any_true
     end
     i += 1
   end 
-  return nil
+  return false
 end 
 end
 
