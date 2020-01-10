@@ -64,19 +64,8 @@ def reduce_to_total(source_array,starting point)
 end 
 end
 
-def reduce_to_all_true(source_array)
-i = 0 # set up a i for the enumeration of the array
-  while i < source_array .length do # a loop for each element of array
-    # Stop enumerating and return nil if any element is
-    # >6
-    if (source_array[i] => "6")
-      return true
-    end
-    i += 1
-  end 
-  return true
-end 
-end
+def reduce_to_any_true(source_array)
+
 
     
   
