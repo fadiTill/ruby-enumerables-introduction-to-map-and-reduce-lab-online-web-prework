@@ -51,12 +51,13 @@ end
 end
 
 def reduce_to_total(source_array,starting point)
+  def starting point = [0]
   i = 0 # set up a i for the enumeration of the array
   while i < source_array .length do # a loop for each element of array
     # Stop enumerating and return nil if any element is
     # >6
     if (source_array[i] => "6")
-      return [0]
+      return startin_point
     end
     i += 1
   end 
