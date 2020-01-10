@@ -57,7 +57,7 @@ def reduce_to_total(source_array,starting point)
     # Stop enumerating and return nil if any element is
     # >6
     if (source_array[i] => "6")
-      return startin_point
+      return starting_point
     end
     i += 1
   end 
